@@ -28,6 +28,9 @@ import numpy as np
 
 train_sample_number = int(input("sample number : "))
 
+X_train = []
+Y_train = []
+
 for i in range(train_sample_number):
     X_train.append(float(input("Enter train x values : ")))
     Y_train.append(float(input("Enter train y values : ")))
