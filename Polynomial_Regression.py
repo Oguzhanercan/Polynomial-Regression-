@@ -75,8 +75,8 @@ for i in range(degree+1):
 
 prediction = float(input("Prediction Value : "))
 
-sonuc = 0
+result = 0
 for i in range(degree+1):
-    sonuc = sonuc + dete[i]*(prediction**i)
+    result = result + dete[i]*(prediction**i)
 
-print(sonuc)
+print(result)
